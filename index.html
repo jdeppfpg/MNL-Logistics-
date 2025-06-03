@@ -555,10 +555,16 @@
                     <h5 class="card-title">Track ID: ${item.track_id}</h5>
                     <p class="card-text mb-1"><strong>Status:</strong> ${item.status}</p>
                     <p class="card-text mb-1"><strong>Current Location:</strong> ${item.location}</p>
-                    <p class="card-text mb-1"><strong>Destination:</strong> ${item.destination}</p>
+                    
                     <p class="card-text mb-1"><strong>Sender:</strong> ${item.sender_name}</p>
-
+                    <p class="card-text mb-1"><strong>Sent From:</strong> ${item.sent_from}</p>
+                    <p class="card-text mb-1"><strong>Date Sent:</strong> ${item.sent_date}</p>
+                    <p class="card-text mb-1"><strong>Weight:</strong> ${item.weight}</p>
+                    <p class="card-text mb-1"><strong>Size:</strong> ${item.size}</p>
+                    
                     <p class="card-text mb-1"><strong>Receiver:</strong> ${item.receiver_name}</p>
+                      <p class="card-text mb-1"><strong>Receivers Destination:</strong> ${item.destination}</p>
+                    
                     <p class="card-text"><strong>Timestamp:</strong> ${new Date(item.timestamp).toLocaleString()}</p>
                   </div>
                 </div>
